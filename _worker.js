@@ -2666,7 +2666,10 @@ function generateUploadPage(categoryOptions, storageType) {
         margin: 0;
         padding: 0;
         min-height: 100vh;
-        background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+        background-image: url('https://yhedesk.dpdns.org/nz_001webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;

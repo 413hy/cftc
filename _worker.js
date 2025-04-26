@@ -545,7 +545,7 @@ export default {
           return response;
       } catch (error) {
           console.error(`[Route] Error handling route ${pathname}:`, error);
-          return new Response("服务器内部错误", { status: 500, headers: { 'Cache-Control': 'no-store' } });
+          return new Response(`路由处理错误: ${error.message}`, { status: 500, headers: { 'Cache-Control': 'no-store' } });
       }
     }
     console.log(`[File] Handling file request for ${pathname}`);
